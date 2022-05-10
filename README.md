@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/95431446/167673318-7050f245-6662-4a50-814b-e96cdcda0a09.png)
 
 
-| **Mise en situation professionnelle** |
+| <ins>**Mise en situation professionnelle**<ins> |
 | :-----------------------------------------------------------------------------:   |
 | [Installation VM](https://github.com/MGNXYZ/Cours/tree/main/Installation%20VM) |
 | [Test connexion réseaux](https://github.com/MGNXYZ/Cours/tree/main/Test%20connexions%20réseaux)  |
