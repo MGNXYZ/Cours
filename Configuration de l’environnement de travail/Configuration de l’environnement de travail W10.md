@@ -30,7 +30,7 @@
 
 ![image](https://user-images.githubusercontent.com/95431446/167693775-845dcf3a-a927-4962-8dd6-2e1fc5384e19.png) 
 
-- ## <ins>**On va maintenant supprimer les options de gravure CD et empêcher l'accès au CD et DVD**<ins>
+- ## <ins>**Suppression des options de gravure CD et empêcher l'accès au CD et DVD**<ins>
 
 ![image](https://user-images.githubusercontent.com/95431446/167694338-db188ce3-6091-4291-834a-c258604c9388.png)
 _On navigue dans l'onglet de gauche comme dans la capture d'écran_
@@ -41,19 +41,19 @@ _On navigue dans l'onglet de gauche comme dans la capture d'écran_
 
 ![image](https://user-images.githubusercontent.com/95431446/167695031-c208795b-fd33-44cd-80e8-b022662e9803.png)
 
-- ## <ins>**On va ensuite désactiver le windows store**<ins>
+- ## <ins>**Désactivation de windows store**<ins>
 
 - On ce rend sur composant Windows puis Windows store et on désactive l'application.
 
 ![image](https://user-images.githubusercontent.com/95431446/167696486-db2ff367-c8c9-4055-bea2-0766528d2f49.png)
 
-- ## <ins>**On va ensuite désactiver regedit**<ins>
+- ## <ins>**Désactivation de regedit**<ins>
 
 - On ce rend sous modèles administrateurs > Système et on active la règle "Empêche l'accès aux outils de modifications du Registre"
 
 ![image](https://user-images.githubusercontent.com/95431446/167696970-07f94f8c-3811-4073-84e2-61a3dd94bee8.png)
 
-- ## <ins>**Il nous faut maintenant mettre un fond d'écran par défaut**<ins>
+- ## <ins>**Fond d'écran par défaut**<ins>
 
 - On ce rend alors dans "Bureau" > "Bureau" .
 
@@ -63,8 +63,10 @@ _On navigue dans l'onglet de gauche comme dans la capture d'écran_
 
 ![image](https://user-images.githubusercontent.com/95431446/167697769-1e15d5fa-5e17-48b7-a3c3-21850cdb1ea7.png)
 
-- ## <ins>**Maintenant on va modifier les paramètres du Pare-feu Windows pour qu'il soit toujours activé**<in>
+- ## <ins>**Modification du Pare-feu Windows**<in>
 
+  > On va modifier le pare feu de maniére a ce qu'il soit toujours actif.
+  
 **_Il faut qu'on ajoute un nouveau composant groupe local mais sans Non-Administrateurs_**
 
 - <ins>On ce rend ensuite dans Configuration ordinateur > Paramètres de sécurité > Pare-feu Windows Defender<ins>
@@ -75,7 +77,7 @@ _On navigue dans l'onglet de gauche comme dans la capture d'écran_
 
 ![image](https://user-images.githubusercontent.com/95431446/167700931-b78be5e3-a073-4b88-a8fb-b7ee9632f3f1.png)
 
-- ## <ins>**Bravo c'est presque finis on va maintenant vérifier si toute nos règles sont bien activé**<ins>
+- ## <ins>**Vérification du bon fonctionnement des règles**<ins>
 
 - <ins>On ouvre l'invite de commandes<ins> 
 
