@@ -9,27 +9,31 @@
 > On utilise la commande : ``` net localgroup 'nom du groupe' /add ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167437082-165dde0a-999a-4873-88c7-0815f74ec343.png)
-_création des utilisateurs_
+
+ _création des utilisateurs_
 
 > Il est possible de créer un commentaire pour les groupes a l'aide de la commande : 
 ``` net localgroup 'nom du groupe' /comment:"commentaire" ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167441102-14eb3fd3-0cfc-4e58-afc3-304b21b012ff.png)
-_ajout de commentaire pour nos groupes_
+
+ _ajout de commentaire pour nos groupes_
 
 - <ins>**On ajoute ensuite les utilisateurs et leur mots de passe :**<ins> 
 
 > On utilise la commande : ``` net user 'utilisateur' 'password' /add ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167437829-409fd37e-097d-4515-8d66-4283907c7fa9.png)
-_ajout de l'utilisateur rgrimes avec sont mot de passe_
+
+ _ajout de l'utilisateur rgrimes avec sont mot de passe_
 
 - <ins>**Enfin nous ajoutons les utilisateurs a leur groupes respectif :**<ins> 
 
 > On utilise la commande ``` net localgroup 'nom du groupe' 'nom de l'utilisateur' /add ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167439628-06a86f0b-1559-4f30-ba81-d775706cbd29.png)
-_ajout de rgrimes au groupe Direction_
+
+ _ajout de rgrimes au groupe Direction_
 
 
 - ###  <ins>Création des utilisateurs et des groupes informatiques et logistique via Powershell.<ins>
@@ -37,28 +41,32 @@ _ajout de rgrimes au groupe Direction_
 - <ins>**On lance Powershell en mode _administrateur_**<ins>
 
 ![image](https://user-images.githubusercontent.com/95431446/167442192-b7610897-cf68-4a33-acf5-042d93137fc8.png)
-_clique droit exécuter en tant qu'administrateur_
+
+ _clique droit exécuter en tant qu'administrateur_
 
 - <ins>**On commence par créer nos groupe :**<ins> 
 
 > On utilise la commande ``` New-LocalGroup -Name "nom du groupe" -Description "desc. du groupe" ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167573955-56bae475-b6a6-400a-8d76-bb6dc59268a6.png)
-_Création du groupe Informatique_
+
+ _Création du groupe Informatique_
 
 - <ins>**On créer ensuite les utilisateurs des groupes avec une description et leur mots de passe.**<ins> 
 
 > On utilise la commande ```  New-LocalUser -Name "Nom d'utilisateur"  -Description "La desc." ``` powershell nous demande alors le mot de passe
 
 ![image](https://user-images.githubusercontent.com/95431446/167580158-8f0c6935-8037-486a-8fc9-1277cdd031ba.png)
-_Création de l'utilisateur bman_
+
+ _Création de l'utilisateur bman_
 
 - <ins>**On ajoute ensuite les utilisateurs a leur groupe respectif.**<ins> 
 
 > On utilise la commande ``` Add-LocalGroupMember -Group "nom du groupe" -Member "utilisateur" ```
 
 ![image](https://user-images.githubusercontent.com/95431446/167580795-dc2dab3d-04b1-489c-938e-4ae7de6c0429.png)
-_ajout de llamblot au groupe Informatique_
+
+ _ajout de llamblot au groupe Informatique_
 
 - ### <ins>Création d'un utilisateur via l'interface graphique<ins>
 
@@ -81,7 +89,8 @@ _ajout de llamblot au groupe Informatique_
 - <ins>**On rempli avec les informations de notre excel**<ins> 
 
 ![image](https://user-images.githubusercontent.com/95431446/167585184-3dafc05d-4e20-4cce-aa9c-2e2ce9fafa0c.png)
-_création du compte de gstokes_
+
+ _création du compte de gstokes_
 
 - <ins>**On ce rend ensuite dans l'onglet Groupes.**<ins>
 
@@ -98,7 +107,8 @@ _création du compte de gstokes_
 - <ins>**On clique ensuite sur "Ajouter..." pour mettre nos utilisateur concerner dans le groupe.**<ins>
 
 ![image](https://user-images.githubusercontent.com/95431446/167587872-bd88eadf-c798-4805-a09c-3946823f550b.png)
-_on utilise le point virgules pour séparer les utilisateurs ``` ; ```_
+
+ _on utilise le point virgules pour séparer les utilisateurs ``` ; ```_
 
 ![image](https://user-images.githubusercontent.com/95431446/167588046-a50001f8-5e08-42b3-8ef4-b53f16c8238c.png)
 
