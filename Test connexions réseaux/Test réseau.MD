@@ -7,12 +7,14 @@
 ![image](https://user-images.githubusercontent.com/95431446/167403162-9bdd9c20-8979-4a2b-9b45-4620a6c99e40.png)
 
 ![image](https://user-images.githubusercontent.com/95431446/167403200-31967d9c-1d0c-4264-a1af-e40dbb732f03.png)
-_Le ping fonctionne de windows vers la machine debian_
+
+  _Le ping fonctionne de windows vers la machine debian_
 
 - <ins>**Pour ce qui est du coté debian le ping ne fonctionne apriori pas il faut pour cela activé la règle autorisant le protocole ICMP dans le pare-feu windows**<ins> 
 
 ![image](https://user-images.githubusercontent.com/95431446/167403630-cd65362b-2a30-4193-88c9-35fefad0efad.png)
-_Le ping sans l'activation de la règles ICMP_
+
+  _Le ping sans l'activation de la règles ICMP_
 
 - <ins>**On ce rend dans le Pare-Feu Windows Defender avec fonctions avancées de sécurité.**<ins>
 
