@@ -12,4 +12,4 @@
 | [Mise en place des utilisateurs](https://github.com/MGNXYZ/Cours/tree/main/Configuration%20des%20utilisateurs%20et%20de%20l’environnement)  |
 | [Configuration de l’environnement](https://github.com/MGNXYZ/Cours/tree/main/Configuration%20de%20l’environnement%20de%20travail)  |
 | [Gestion d'imprimantes](https://github.com/MGNXYZ/Cours/tree/main/Gestion%20d’imprimantes)  |
-| [Configuration avancée des systemes](https://github.com/MGNXYZ/Cours/tree/main/Configuration%20avanc%C3%A9e%20des%20systemes.md)  |
+| [Configuration avancée des systemes](https://github.com/MGNXYZ/Cours/tree/main/Configuration%20avancée%20système%20Debian)  |
